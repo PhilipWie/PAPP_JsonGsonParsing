@@ -1,0 +1,52 @@
+[
+  {
+    "titel": "Der Herr der Ringe",
+    "erscheinungsjahr": 1954,
+    "gelesen": true,
+    "autor": {
+      "name": "J.R.R. Tolkien",
+      "geburtsjahr": 1892
+    },
+    "genres": ["Fantasy", "Abenteuer"]
+  },
+  {
+    "titel": "1984",
+    "erscheinungsjahr": 1949,
+    "gelesen": false,
+    "autor": {
+      "name": "George Orwell",
+      "geburtsjahr": 1903
+    },
+    "genres": ["Dystopie", "Science Fiction"]
+  },
+  {
+    "titel": "Harry Potter und der Stein der Weisen",
+    "erscheinungsjahr": 1997,
+    "gelesen": true,
+    "autor": {
+      "name": "J.K. Rowling",
+      "geburtsjahr": 1965
+    },
+    "genres": ["Fantasy", "Jugendliteratur"]
+  },
+  {
+    "titel": "Der Alchemist",
+    "erscheinungsjahr": 1988,
+    "gelesen": false,
+    "autor": {
+      "name": "Paulo Coelho",
+      "geburtsjahr": 1947
+    },
+    "genres": ["Roman", "Philosophie"]
+  },
+  {
+    "titel": "Schöne neue Welt",
+    "erscheinungsjahr": 1932,
+    "gelesen": true,
+    "autor": {
+      "name": "Aldous Huxley",
+      "geburtsjahr": 1894
+    },
+    "genres": ["Dystopie", "Science Fiction"]
+  }
+]
