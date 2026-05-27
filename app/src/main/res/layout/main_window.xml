@@ -1,20 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/idButtonContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
 
     <TextView
             android:id="@+id/idTitleTextView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/green_300"
             android:text="@string/app_name"
             android:gravity="center"
-            android:textSize="30sp"
+            android:textSize="29sp"
+            android:padding="25sp"
             android:textStyle="bold"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="40dp"
     />
-</RelativeLayout>
+    <RadioGroup
+            android:id="@+id/idColorRadioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+        <RadioButton
+                android:id="@+id/idAdresseRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/module_adresse"/>
+
+        <RadioButton
+                android:id="@+id/idKursRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/module_kurs"/>
+
+
+        <RadioButton
+                android:id="@+id/idPersonRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/module_person"/>
+
+        <RadioButton
+                android:id="@+id/idStudentRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/module_student"/>
+
+    </RadioGroup>
+    <Button
+            android:id="@+id/idSubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:backgroundTint="@color/green_300"
+            android:text="@string/btn_submit"/>
+</LinearLayout>

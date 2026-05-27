@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PAPP_JsonGsonParsing</string>
+    <string name="module_adresse">Adresse</string>
+    <string name="module_kurs">Kurs</string>
+    <string name="module_person">Person</string>
+    <string name="module_student">Student</string>
+    <string name="btn_submit">Submit</string>
 </resources>
