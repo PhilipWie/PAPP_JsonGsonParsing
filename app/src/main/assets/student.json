@@ -1,0 +1,19 @@
+{
+  "Matrikelnummer": "123456",
+  "person": {
+    "vorname": "Philip",
+    "nachname": "Mustermann",
+    "alter": 22
+  },
+  "adresse": {
+    "strasse": "Musterstraße",
+    "hausnummer": 5,
+    "plz": 10115,
+    "stadt": "Berlin"
+  },
+  "kurs": {
+    "kursName": "Mobile Development",
+    "kursNummer": "S12",
+    "kursDauer": 90
+  }
+}

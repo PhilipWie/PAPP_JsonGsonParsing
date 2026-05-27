@@ -64,4 +64,14 @@
             android:textSize="27sp"
             android:backgroundTint="@color/green_300"
             android:text="@string/btn_submit"/>
+
+    <TextView
+            android:id="@+id/idOutputField"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:background="@color/blue_gray_100"
+            android:text="Ausgabe"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"/>
 </LinearLayout>
