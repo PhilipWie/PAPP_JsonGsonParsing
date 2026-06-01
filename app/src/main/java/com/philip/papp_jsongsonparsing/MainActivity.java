@@ -26,9 +26,23 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.main_window);
         outputTextView = findViewById(R.id.idOutputField);
-
-        // Logic Submit Button
         radioGroup = findViewById(R.id.idColorRadioGroup1);
+        // Radio Buttons On Check
+        radioGroup.setOnCheckedChangeListener((group, checkedId) -> {
+            if (checkedId == R.id.idAdresseRadioButton) {
+                outputTextView.setText(loadJsonFromAssets("adresse.json"));
+
+            } else if (checkedId == R.id.idKursRadioButton) {
+                outputTextView.setText(loadJsonFromAssets("kurs.json"));
+
+            } else if (checkedId == R.id.idPersonRadioButton) {
+                outputTextView.setText(loadJsonFromAssets("person.json"));
+
+            } else if (checkedId == R.id.idStudentRadioButton) {
+                outputTextView.setText(loadJsonFromAssets("student.json"));
+            }
+        });
+        // Logic Submit Button
         submitButton = findViewById(R.id.idSubmitButton);
         submitButton.setOnClickListener(v -> {
             int selectedId = radioGroup.getCheckedRadioButtonId();

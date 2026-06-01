@@ -6,7 +6,7 @@ public class Kurs {
     int kursDauer;
 
     public String toString() {
-        return "Kurs: " + kursName + " Nummer: " + kursNummer + " Dauer: " + kursDauer + " ";
+        return "Kurs: " + kursName + " | Nummer: " + kursNummer + " | Dauer: " + kursDauer + " ";
     }
     public String getKursName() {
         return kursName;

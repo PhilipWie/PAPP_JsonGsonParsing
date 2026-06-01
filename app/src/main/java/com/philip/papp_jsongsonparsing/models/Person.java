@@ -6,7 +6,7 @@ public class Person {
     int alter;
 
     public String toString() {
-        return "Vorname: " + vorname + " Nachname: " + nachname + " Alter: " + alter;
+        return " | Vorname: " + vorname + " | Nachname: " + nachname + " | Alter: " + alter;
     }
 
     public String getVorname() {

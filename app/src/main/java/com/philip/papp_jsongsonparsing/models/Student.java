@@ -7,7 +7,7 @@ public class Student {
     private Kurs kurs;
 
     public String toString() {
-        return "Matrikelnummer: " + Matrikelnummer + " " + person.toString() + adresse.toString() + kurs.toString();
+        return "Matrikelnummer: " + Matrikelnummer + " | " + person.toString() + " | " + adresse.toString() + " | " + kurs.toString();
     }
     public String getMatrikelnummer() { return Matrikelnummer;}
     public Person getPerson() { return person;}
